@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>VAJIRA TECH | AI APIs</title>
-<meta name="description" content="An api site for developers. No login, No limit, Easy to use and 24/7 online.">
-    
+<title>VAJIRA | NEWS APIs</title>
+<meta name="description" content="An api site for developers. No login, apikey and limit. Easy to use and 24/7 online.">
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
 <link href="img/vajira.jpg" rel="icon">
@@ -79,7 +79,6 @@ use this chat box properly and correctly.
 </ul>
 </li>
 
-
 <li class="nav-item dropdown">
 <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown" style="margin-right: -15px;">
 <i class="bi bi-clock"></i>
@@ -130,7 +129,7 @@ You can see time by below clock.
 </header>
 <aside id="sidebar" class="sidebar" style="z-index:122;">
 <ul class="sidebar-nav" id="sidebar-nav">
-<h1 class="text-2xl text-center mt-4">VAJIRA TECH - <span class="text-primary">APIs</span></h1>
+<h1 class="text-2xl text-center mt-4">VAJIRA - <span class="text-primary">APIs</span></h1>
 <div class="mt-8">
 <div class="mb-4 relative lg:hidden false">
 </div>
@@ -148,7 +147,7 @@ You can see time by below clock.
 </li>
 <li class="nav-heading">API FEATURE</li>
 <li class="nav-item">
-  
+
 <a class="nav-link collapsed" href="/movie">
 <i class="bi bi-filetype-mov">
 </i>
@@ -160,29 +159,32 @@ You can see time by below clock.
 </i>
 <span>News </span>
 </a>
-  
-<a class="nav-link collapsed" href="/download">
+  <a class="nav-link collapsed" href="/download">
 <i class="bi bi-download">
 </i>
 <span>Download </span>
 </a>
- <a class="nav-link collapsed" href="/more">
+    
+<a class="nav-link collapsed" href="/more">
 <i class="bi bi-browser-firefox me-2">
 </i>
 <span>More </span>
-</a>   
+</a>  
 
- <a class="nav-link collapsed" href="/search">
+<a class="nav-link collapsed" href="/search">
 <i class="bi bi-gear-wide-connected me-2">
 </i>
 <span>Search </span>
 </a>
 
-<a class="nav-link collapsed" href="/ai">
+
+ <a class="nav-link collapsed" href="/ai">
 <i class="bi bi-tools me-2">
 </i>
 <span>Ai </span>
-</a>
+</a>   
+    
+</li>
 
 <li class="nav-heading">Contact</li>
 <li class="nav-item">
@@ -192,7 +194,7 @@ You can see time by below clock.
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link collapsed" href="https://github.com/VajiraTech" target="_blank">
+<a class="nav-link collapsed" href="https://github.com/VajiraTech/VAJIRA_MD/" target="_blank">
 <i class="bi bi-github"></i>
 <span>Github</span>
 </a>
@@ -213,7 +215,7 @@ You can see time by below clock.
 <div class="col-xl-12">
 <div class="card">
 <div class="card-body">
-<h5 class="card-title">Ai</h5>
+<h5 class="card-title">News</h5>
 <div class="table-responsive text-black text-nowrap">
 <table class="table table-bordered">
 
@@ -231,41 +233,163 @@ You can see time by below clock.
 </thead>
 <tbody> <tr>
 
-
 <td>01 </td>
-<td>Blackbox Ai </td>
+<td>Derana </td>
 <td>❌</td>
-<td>Blackbox ai chat. </td>
-<td>Json </td>
+<td>Get Derana Latest News. </td>
+<td>- </td>
 <td> <li class="btn btn-sm btn-success">TRUE</li></td>
 <td>
-<a class="btn btn-sm btn-danger" href="/ai/blackbox?q=Hello" target="_blank">Details </a>
+<a class="btn btn-sm btn-danger" href="/news/derana" target="_blank">GET </a>
 </td>
 </tr> 
-
 
 <td>02 </td>
-<td>Blackbox Ai 4 </td>
+<td>Sirasa </td>
 <td>❌</td>
-<td>Blackbox ai chat V4.</td>
-<td>Json </td>
+<td>Get Sirasa Latest News. </td>
+<td>- </td>
 <td> <li class="btn btn-sm btn-success">TRUE</li></td>
 <td>
-<a class="btn btn-sm btn-danger" href="/ai/blackboxv4?q=Hello" target="_blank">Details </a>
+<a class="btn btn-sm btn-danger" href="/news/sirasa" target="_blank">GET </a>
+</td>
+</tr> 
+
+<td>03 </td>
+<td>Hiru </td>
+<td>❌</td>
+<td>Get Hiru Latest News. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/hiru" target="_blank">GET </a>
+</td>
+</tr> 
+
+<td>04 </td>
+<td>Bbc </td>
+<td>❌</td>
+<td>Get Bbc Sinhala Latest News. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/bbc" target="_blank">GET </a>
+</td>
+</tr> 
+
+<td>05 </td>
+<td>Lankadeepa </td>
+<td>❌</td>
+<td>Get Latest News Lankadeepa. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/lankadeepa" target="_blank">GET </a>
+</td>
+</tr> 
+    
+<td>06 </td>
+<td>Itn </td>
+<td>❌</td>
+<td>Get Latest News Itn. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/itn" target="_blank">GET </a>
 </td>
 </tr> 
 
 
-  <td>03 </td>
-<td>Photoleap AI Img </td>
+<td>07 </td>
+<td>Siyatha </td>
 <td>❌</td>
-<td>Photoleap AI Image Genarator</td>
-<td>Json </td>
+<td>Get Latest News Siyatha. </td>
+<td>- </td>
 <td> <li class="btn btn-sm btn-success">TRUE</li></td>
 <td>
-<a class="btn btn-sm btn-danger" href="/ai/photoleap?q=Boy" target="_blank">Details </a>
+<a class="btn btn-sm btn-danger" href="/news/siyatha" target="_blank">GET </a>
+</td>
+</tr> 
+
+<td>08 </td>
+<td>NethNews </td>
+<td>❌</td>
+<td>Get Latest News NethNews. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/nethnews" target="_blank">GET </a>
 </td>
 </tr>   
+
+    
+<td>09 </td>
+<td>LNW </td>
+<td>❌</td>
+<td>Get Latest News LNW. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/lnw" target="_blank">GET </a>
+</td>
+</tr>       
+
+ <td>10 </td>
+<td>Silumina </td>
+<td>❌</td>
+<td>Get Latest News Silumina. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/silumina" target="_blank">GET </a>
+</td>
+</tr>       
+
+ <td>11 </td>
+<td>Dasathalankanews </td>
+<td>❌</td>
+<td>Get Latest News Dasathalankanews. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/dasathalankanews" target="_blank">GET </a>
+</td>
+</tr>          
+    
+ <td>12 </td>
+<td>Gossiplankanews </td>
+<td>❌</td>
+<td>Get Latest News Gossiplankanews. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/gossiplankanews" target="_blank">GET </a>
+</td>
+</tr>          
+
+ <td>13 </td>
+<td>Cricbuzz </td>
+<td>❌</td>
+<td>Get Live Cricket News Cricbuzz. </td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success">TRUE</li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/cricbuzz" target="_blank">GET </a>
+</td>
+</tr>           
+
+
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>- </td>
+<td> <li class="btn btn-sm btn-success"></li></td>
+<td>
+<a class="btn btn-sm btn-danger" href="/news/server" target="_blank"></a>
+</td>
+</tr>       
+
     
 </tbody>
 </table>
@@ -281,7 +405,7 @@ You can see time by below clock.
 &copy; Copyright
 <strong>
 <span>2021-2024</span>
-</strong> VAJIRA TECH - Api
+</strong> VAJIRA - Api
 </div>
 </footer>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
